@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  height: 140px;
+  width: 440px;
+}
+
+@media (max-width: 768px) {
+  .google-logo {
+    height: 80px;
+    width: 250px;
+  }
+}
+
+.search-container {
+  max-width: 100%;
+  width: 60vw;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 14px;
+  margin: 50px;
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    width: 60vw;
+    margin: 30px;
+  }
+}
+
+.search-logo-container {
+  display: flex;
+}
+
+.search-icon {
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  color: #bfbfbf;
+}
+
+@media (max-width: 768px) {
+  .search-icon {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.search-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  border-width: 0px;
+  outline: none;
+  border: none;
+  width: 100%;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .search-name {
+    font-size: 13px;
+  }
+}
+
+.suggested-items {
+  margin: 0px;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .suggested-items {
+    margin: 0px;
+    padding-left: 10px;
+  }
+}
